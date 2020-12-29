@@ -1,7 +1,8 @@
-# Install Docker
-## For Windows
+# Prerequisites
+## Install Docker
+#### For Windows
 Install [Docker Toolbox.](http://docs.docker.oeynet.com/toolbox/toolbox_install_windows/)
-## For Linux
+#### For Linux
 Follow the steps below to install Docker on Linux from Latest Docker’s Repository. 
 Update the system and install required dependencies typing following command: 
 **sudo yum update && sudo yum install yum-utils device-mapper-persistent-data lvm2**  
@@ -14,7 +15,7 @@ Start and Enable Docker service typing following systemctl commands:
 **sudo systemctl enable docker**   
 You can check the Docker service status using the following systemctl command:   
 **sudo systemctl status docker**
-# Install Docker Compose For Linux
+## Install Docker Compose For Linux
 
 Install Extra Packages for Enterprise Linux:   
 **sudo yum install epel-release**  
