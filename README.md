@@ -4,9 +4,9 @@
 Install [Docker Toolbox.](http://docs.docker.oeynet.com/toolbox/toolbox_install_windows/)
 #### For Linux
 Follow the steps below to install Docker on Linux from Latest Docker’s Repository. 
-Update the system and install required dependencies typing following command: 
+Update the system and install required dependencies typing following command:  
 **sudo yum update && sudo yum install yum-utils device-mapper-persistent-data lvm2**  
-Next, add the repository to your system typing following in the terminal: 
+Next, add the repository to your system typing following in the terminal:  
 **sudo yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo**  
 Install Docker Community Version typing following command:  
 **sudo yum install docker-ce**  
